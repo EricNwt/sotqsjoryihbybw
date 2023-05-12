@@ -16,12 +16,13 @@
         <h1 class="text-light">Tio Patinhas - Sepetiba</h1>
         <hr>
     </div>
-    <h3>Atenção: Promoção válida até 04/05/2023</h3>
+    <h3>Atenção: Promoção válida até 09/05/2023</h3>
     <h3>Que tipo de produto você quer encontrar mais barato?</h3><br>
     <!--Produtos-->
     <div class="center">
         <input type="button" value="Açucar" class="botaotam btn btn-success" onclick="acucar()"><br>
         <div class="padrao lead bg-info text-dark" id="acucarmaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiaacucar"></div>
         <div class="lead" id="acucarredeeconomia"></div>
         <div class="lead" id="acucarriosul"></div>
         <div class="lead" id="acucarsupermarket"></div>
@@ -29,6 +30,7 @@
 
         <input type="button" value="Arroz" class="botaotam btn btn-success" onclick="arroz()"><br>
         <div class="padrao lead bg-info text-dark" id="arrozmaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiaarroz"></div>
         <div class="lead" id="arrozredeeconomia"></div>
         <div class="lead" id="arrozriosul"></div>
         <div class="lead" id="arrozsupermarket"></div>
@@ -36,6 +38,7 @@
 
         <input type="button" value="Batata Frita" class="botaotam btn btn-success" onclick="batatafrita()"><br>
         <div class="padrao lead bg-info text-dark" id="batatafritamaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiabatatafrita"></div>
         <div class="lead" id="batatafritaredeeconomia"></div>
         <div class="lead" id="batatafritariosul"></div>
         <div class="lead" id="batatafritasupermarket"></div>
@@ -43,6 +46,7 @@
 
         <input type="button" value="Café" class="botaotam btn btn-success" onclick="cafe()"><br>
         <div class="padrao lead bg-info text-dark" id="cafemaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiacafe"></div>
         <div class="lead" id="caferedeeconomia"></div>
         <div class="lead" id="caferiosul"></div>
         <div class="lead" id="cafesupermarket"></div>
@@ -50,20 +54,21 @@
 
         <input type="button" value="Carne" class="botaotam btn btn-success" onclick="carne()"><br>
         <div class="padrao lead bg-info text-dark" id="carnemaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiacarne"></div>
         <div class="lead" id="carneredeeconomia"></div>
         <div class="lead" id="carneriosul"></div>
         <div class="lead" id="carnesupermarket"></div>
         <div class="lead" id="carnesuperrede"></div><br>
 
         <input type="button" value="Cerveja" class="botaotam btn btn-success" onclick="cerveja()"><br>
-        <div class="padrao lead bg-info text-dark" id="cervejamaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiacerveja"></div>
         <div class="lead" id="cervejaredeeconomia"></div>
         <div class="lead" id="cervejariosul"></div>
         <div class="lead" id="cervejasupermarket"></div>
         <div class="lead" id="cervejasuperrede"></div><br>
 
         <input type="button" value="Creme de Leite" class="botaotam btn btn-success" onclick="cremedeleite()"><br>
-        <div class="padrao lead bg-info text-dark" id="cremedeleitemaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiacremedeleite"></div>
         <div class="lead" id="cremedeleiteredeeconomia"></div>
         <div class="lead" id="cremedeleiteriosul"></div>
         <div class="lead" id="cremedeleitesupermarket"></div>
@@ -71,6 +76,7 @@
 
         <input type="button" value="Detergente" class="botaotam btn btn-success" onclick="detergente()"><br>
         <div class="padrao lead bg-info text-dark" id="detergentemaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiadetergente"></div>
         <div class="lead" id="detergenteredeeconomia"></div>
         <div class="lead" id="detergenteriosul"></div>
         <div class="lead" id="detergentesupermarket"></div>
@@ -78,6 +84,7 @@
 
         <input type="button" value="Feijão" class="botaotam btn btn-success" onclick="feijao()"><br>
         <div class="padrao lead bg-info text-dark" id="feijaomaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiafeijao"></div>
         <div class="lead" id="feijaoredeeconomia"></div>
         <div class="lead" id="feijaoriosul"></div>
         <div class="lead" id="feijaosupermarket"></div>
@@ -85,6 +92,7 @@
 
         <input type="button" value="Frango" class="botaotam btn btn-success" onclick="frango()"><br>
         <div class="padrao lead bg-info text-dark" id="frangomaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiafrango"></div>
         <div class="lead" id="frangoredeeconomia"></div>
         <div class="lead" id="frangoriosul"></div>
         <div class="lead" id="frangosupermarket"></div>
@@ -92,6 +100,7 @@
 
         <input type="button" value="Leite em Caixa" class="botaotam btn btn-success" onclick="leiteemcaixa()"><br>
         <div class="padrao lead bg-info text-dark" id="leiteemcaixamaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economialeiteemcaixa"></div>
         <div class="lead" id="leiteemcaixaredeeconomia"></div>
         <div class="lead" id="leiteemcaixariosul"></div>
         <div class="lead" id="leiteemcaixasupermarket"></div>
@@ -99,6 +108,7 @@
 
         <input type="button" value="Leite em Pó" class="botaotam btn btn-success" onclick="leiteempo()"><br>
         <div class="padrao lead bg-info text-dark" id="leiteempomaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economialeiteempo"></div>
         <div class="lead" id="leiteemporedeeconomia"></div>
         <div class="lead" id="leiteemporiosul"></div>
         <div class="lead" id="leiteemposupermarket"></div>
@@ -106,6 +116,7 @@
 
         <input type="button" value="Macarrão" class="botaotam btn btn-success" onclick="macarrao()"><br>
         <div class="padrao lead bg-info text-dark" id="macarraomaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiamacarrao"></div>
         <div class="lead" id="macarraoredeeconomia"></div>
         <div class="lead" id="macarraoriosul"></div>
         <div class="lead" id="macarraosupermarket"></div>
@@ -113,6 +124,7 @@
 
         <input type="button" value="Margarina" class="botaotam btn btn-success" onclick="margarina()"><br>
         <div class="padrao lead bg-info text-dark" id="margarinamaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiamargarina"></div>
         <div class="lead" id="margarinaredeeconomia"></div>
         <div class="lead" id="margarinariosul"></div>
         <div class="lead" id="margarinasupermarket"></div>
@@ -120,6 +132,7 @@
 
         <input type="button" value="Molho de Tomate" class="botaotam btn btn-success" onclick="molhodetomate()"><br>
         <div class="padrao lead bg-info text-dark" id="molhodetomatemaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiamolhodetomate"></div>
         <div class="lead" id="molhodetomateredeeconomia"></div>
         <div class="lead" id="molhodetomateriosul"></div>
         <div class="lead" id="molhodetomatesupermarket"></div>
@@ -127,20 +140,14 @@
 
         <input type="button" style="width:160px; height:50px" value="Oléo" class="center btn btn-success" onclick="oleo()">
         <div class="padrao lead bg-info text-dark" id="oleomaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiaoleo"></div>
         <div class="lead" id="oleoredeeconomia"></div>
         <div class="lead" id="oleoriosul"></div>
         <div class="lead" id="oleosupermarket"></div>
         <div class="lead" id="oleosuperrede"></div><br>
 
-        <input type="button" value="Refrigerante" class="botaotam btn btn-success" onclick="refrigerante()"><br>
-        <div class="padrao lead bg-info text-dark" id="refrigerantemaisbarato"></div>
-        <div class="lead" id="refrigeranteredeeconomia"></div>
-        <div class="lead" id="refrigeranteriosul"></div>
-        <div class="lead" id="refrigerantesupermarket"></div>
-        <div class="lead" id="refrigerantesuperrede"></div><br>
-
         <input type="button" value="Sabão em Pó" class="botaotam btn btn-success" onclick="sabaoempo()"><br>
-        <div class="padrao lead bg-info text-dark" id="sabaoempomaisbarato"></div>
+        <div class="padrao lead bg-info text-dark" id="economiasabaoempo"></div>
         <div class="lead" id="sabaoemporedeeconomia"></div>
         <div class="lead" id="sabaoemporiosul"></div>
         <div class="lead" id="sabaoemposupermarket"></div>
