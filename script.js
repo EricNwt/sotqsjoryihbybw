@@ -31,7 +31,7 @@ function cafe(){
     cafesuperrede.innerHTML = 'Super Rede café melitta: 18,99R$'
 }
 function carne(){
-    carnemaisbarato.innerHTML = 'A carne mais barata está no mercado Super Market no valor de 13,99R$'
+    carnemaisbarato.innerHTML = 'A carne mais barata está no mercado Rio Sul no valor de 13,99R$'
     economiacarne.innerHTML = 'Você economizou 26,00R$ em relação ao mercado mais caro.'
     carneredeeconomia.innerHTML = 'Rede Economia não tem promoção'
     carneriosul.innerHTML = 'Rio Sul pernill suino com osso e com pele 1kg: 13,99R$'
@@ -47,7 +47,7 @@ function cerveja(){
     cervejasuperrede.innerHTML = 'Super Rede cerveja brahma latão: 3,99R$'
 }
 function cremedeleite(){//Talvez possa ser retirado
-    cremedeleitemaisbarato.innerHTML = 'Até o momento não tem creme de leite em promoção'
+    cremedeleitemaisbarato.innerHTML = 'O creme de leite mais barato está no mercado Super Market no valor de 2,85R$'
     economiacremedeleite.innerHTML = 'Você economizou 0,74R$ em relação ao mercado mais caro.'
     cremedeleiteredeeconomia.innerHTML = 'Rede Economia não tem promoção'
     cremedeleiteriosul.innerHTML = 'Rio Sul não tem promoção'
@@ -87,7 +87,7 @@ function leiteemcaixa(){
     leiteemcaixasuperrede.innerHTML = 'Super Rede não tem promoção'
 }
 function leiteempo(){//Talvez possa ser retirado
-    leiteempomaisbarato.innerHTML = 'O leite em pó está no mercado Super Rede no valor de 13,95R$'
+    leiteempomaisbarato.innerHTML = 'O leite em pó está no mercado Super Market no valor de 14,98R$'
     economialeiteempo.innerHTML = 'Você economizou 2,00R$ em relação ao mercado mais caro.'
     leiteemporedeeconomia.innerHTML = 'Rede Economia não tem promoção'
     leiteemporiosul.innerHTML = 'Rio Sul não tem promoção'
@@ -127,14 +127,14 @@ function oleo(){
     oleosuperrede.innerHTML = 'Super Rede oléo de soja cocamar: 5,99R$'
 }
 function sabaoempo(){
-    sabaoempomaisbarato.innerHTML = 'O sabão em pó mais barato está no mercado Super Rede no valor de 8,95R$'
+    sabaoempomaisbarato.innerHTML = 'O sabão em pó mais barato está no mercado Rede Economia no valor de 8,98R$'
     economiasabaoempo.innerHTML = 'Você economizou 13,97R$ em relação ao mercado mais caro.'
     sabaoemporedeeconomia.innerHTML = 'Rede Economia Sabão em pó astra: 8,98R$'
     sabaoemporiosul.innerHTML = 'Rio Sul não tem promoção'
     sabaoemposupermarket.innerHTML = 'Super Market não tem promoção'
     sabaoemposuperrede.innerHTML = 'Super Rede sabão em pó omo: 22,95R$'
 }
-function rank(){
+function rank(){//Atualizar 12/05/2023
     rankmaisbarato.innerHTML = 'A classificação segue do mercado mais barato para o mais caro'
     rankmaisbarato1.innerHTML = '1) Rede Economia com 5 produtos | Super Market com 5 produtos'
     rankmaisbarato2.innerHTML = '2) Super Rede com 4 produtos'
