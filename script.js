@@ -141,6 +141,10 @@ function rank(){//Atualizar
     rankmaisbarato3.innerHTML = '3) Rio Sul com 3 produtos'
     rankmaisbarato4.innerHTML = '4) Super Rede com 2 produtos'
 }
-function problema(){
-    alert("Entrar em contato pelo e-mail: skilobaloba@gmail.com")
+function localizacao(){
+    localizacaolegenda.innerHTML = 'Para localizar um mercado, clique em seu nome abaixo'
+    localizacaoredeeconomia.innerHTML = '<a href="https://goo.gl/maps/9xKXonrsGNmPnmsY9" target="_blank">Rede Economia</a>'
+    localizacaoriosul.innerHTML = '<a href="https://goo.gl/maps/UHS8Tj5VBYdcQj1u5" target="_blank">Rio Sul</a>'
+    localizacaosupermarket.innerHTML = '<a href="https://goo.gl/maps/cfvPgBqujxH3XGP16" target="_blank">Super Market</a>'
+    localizacaosuperrede.innerHTML = '<a href="https://goo.gl/maps/1U3ta2AFiXdiCWkj8" target="_blank">Super Rede</a>'
 }//Adcionar Ovo ao todo tem 17 produtos se tirar os 4 e adcionar o ovo ficaria 13
