@@ -1,26 +1,26 @@
 function acucar(){
-    acucarmaisbarato.innerHTML = 'Mercado mais barato Rio Sul: 3,99R$'
-    economiaacucar.innerHTML = 'Você economizou 1,46R$ em relação ao mercado mais caro'
+    acucarmaisbarato.innerHTML = 'Indicamos Rio Sul: 3,99R$'
+    economiaacucar.innerHTML = 'Em relação ao maior valor você economizou: 0,59R$'
     acucarredeeconomia.innerHTML = '<strong>Rede Economia </strong><br>Não tem promoção'
     acucarriosul.innerHTML = '<strong>Rio Sul</strong><br>Preço atual do açucar refinado caravelas: 3,99R$'
-    acucarsupermarket.innerHTML = '<strong>Super Market</strong><br>Não tem promoção'
-    acucarsuperrede.innerHTML = '<strong>Super Rede</strong><br>Preço atual açucar light fit união: 5,45R$'
+    acucarsupermarket.innerHTML = '<strong>Super Market</strong><br>Último preço açucar caravela: 4,49R$'
+    acucarsuperrede.innerHTML = '<strong>Super Rede</strong><br>Preço atual açucar guarani: 4,59R$'
 }
 function arroz(){
-    arrozmaisbarato.innerHTML = 'Mercado mais barato Super Market: 19,95R$'
-    economiaarroz.innerHTML = 'Você economizou 2,00R$ em relação ao mercado mais caro'
+    arrozmaisbarato.innerHTML = 'Indicamos Super Market: 19,95R$'
+    economiaarroz.innerHTML = 'Em relação ao maior valor você economizou: 4,05R$'
     arrozredeeconomia.innerHTML = '<strong>Rede Economia</strong><br>Preço atual arroz branco Palmares: 21,95R$'
     arrozriosul.innerHTML = '<strong>Rio Sul</strong><br>Preço atual arroz branco tucano: 19,99R$'
     arrozsupermarket.innerHTML = '<strong>Super Market</strong><br>Preço atual arroz branco dona elza: 19,95R$'
-    arrozsuperrede.innerHTML = '<strong>Super Rede</strong><br>Não tem promoção'
+    arrozsuperrede.innerHTML = '<strong>Super Rede</strong><br>Preço atual arroz branco carreteiro: 23,99R$'
 }
 function batatafrita(){
-    batatafritamaisbarato.innerHTML = 'Mercado mais barato Super Rede: 6,99R$R$'
-    economiabatatafrita.innerHTML = ''
+    batatafritamaisbarato.innerHTML = 'Indicamos Super Market: 23,98R$'
+    economiabatatafrita.innerHTML = 'Em relação ao maior valor você economizou: 3,02R$'
     batatafritaredeeconomia.innerHTML = '<strong>Rede Economia</strong><br>Não tem promoção'
     batatafritariosul.innerHTML = '<strong>Rio Sul</strong><br>Não tem promoção'
-    batatafritasupermarket.innerHTML = '<strong>Super Market</strong><br>Não tem promoção'
-    batatafritasuperrede.innerHTML = '<strong>Super Rede</strong><br>Preço atual batata pré-frita quality fries: 6,99R$'
+    batatafritasupermarket.innerHTML = '<strong>Super Market</strong><br>Último preço batata prime fries 1,5kg: 23,98R$'
+    batatafritasuperrede.innerHTML = '<strong>Super Rede</strong><br>Preço atual batata pré-frita quality fries 2kg: 26,99R$'
 }
 function cafe(){
     cafemaisbarato.innerHTML = 'Mercado mais barato Rede Economia: 13,98R$'
